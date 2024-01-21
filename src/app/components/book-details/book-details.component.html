@@ -1,0 +1,14 @@
+<div class="header">
+    <a routerLink="/home" class="back-button">Înapoi</a>
+  </div>
+
+<div *ngIf="bookDetails" class="book-details">
+    <h2>{{ bookDetails.titlu }}</h2>
+    <p><strong>Autor:</strong> {{ bookDetails.autor }}</p>
+    <p><strong>Categorie:</strong> {{ bookDetails.categorie }}</p>
+    <p><strong>Editura:</strong> {{ bookDetails.editura }}</p>
+    <p><strong>Anul publicării:</strong> {{ bookDetails.an }}</p>
+    <p><strong>Număr de pagini:</strong> {{ bookDetails.nr }}</p>
+    <p><strong>Descriere:</strong> {{ bookDetails.descriere }}</p>
+</div>
+  

@@ -1,0 +1,20 @@
+<div class="page-title">
+  <h1>Biblioteca Virtuală</h1>
+</div> 
+<div>
+    <ul>
+      <li *ngFor="let book of bookList" class="book-item">
+        <div class="book-details">
+          <h3>
+            <a [routerLink]="['/book', book.id]">{{ book.titlu }}</a>
+          </h3>
+          <p><strong>Autor:</strong> {{ book.autor }}</p>
+          <p><strong>Categorie:</strong> {{ book.categorie }}</p>
+          <button (click)="confirmDeleteBook(book.id)" class="delete-button">Șterge</button>
+        </div>
+      </li>
+    </ul>
+    <a routerLink="/add-book" class="btn-link">Adaugă carte nouă</a>
+    <a routerLink="/login" class="btn-link1"> Delogare</a>
+  </div>
+  

@@ -1,0 +1,78 @@
+<form [formGroup]="signupForm" class="form-container" (ngSubmit)="submitDetails()">
+    <div class="auth-container">
+      <h2>Inregistrare cont</h2>
+      <div class="field">
+        <label for="fullName">Numele complet</label>
+        <input
+          type="text"
+          id="fullName"
+          formControlName="fullName"
+          class="custom-input"
+          placeholder="Introduceti numele complet"
+        />
+        <small *ngIf="FullName.errors?.['required'] && (FullName.dirty || FullName.touched)" class="block p-error">
+          Acest camp este obligatoriu
+        </small>
+        <small *ngIf="FullName.errors?.['containsNumbers'] && (FullName.dirty || FullName.touched)" class="block p-error">
+          Numele nu trebuie să conțină cifre
+        </small>
+        <small *ngIf="FullName.errors?.['noSpace'] && (FullName.dirty || FullName.touched)" class="block p-error">
+           Introduceti numele complet
+          </small>          
+      </div>
+      
+      
+      <div class="field">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          [(ngModel)]="email"
+          formControlName="email"
+          class="custom-input"
+          placeholder="Introduceti adresa de email"
+        />
+        <small *ngIf="Email.invalid && (Email.dirty || Email.touched)" class="block p-error">
+          <div *ngIf="Email.errors?.['required']">Acest camp este obligatoriu</div>
+          <div *ngIf="Email.errors?.['email']">Introduceti o adresa de email valida</div>
+        </small>
+      </div>
+
+      <div class="field">
+        <label for="password">Parola</label>
+        <input
+          type="password"
+          id="password"
+          [(ngModel)]="password"
+          formControlName="password"
+          class="custom-input"
+          placeholder="Introduceti parola"
+        />
+        <small *ngIf="Password.invalid && (Password.dirty || Password.touched)" class="block p-error">
+          <div *ngIf="Password.errors?.['required']">Acest camp este obligatoriu</div>
+          <div *ngIf="Password.errors?.['minlength']">Parola trebuie să aibă cel puțin 8 caractere</div>
+          <div *ngIf="Password.errors?.['pattern']">Parola trebuie să aibă cel puțin un număr și o literă majusculă</div>
+        </small>
+      </div>
+
+      <div class="field">
+        <label for="confirmPassword">Parola confirmata</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          formControlName="confirmPassword"
+          class="custom-input"
+          placeholder="Confirmati parola"
+        />
+        <small *ngIf="ConfirmPassword.invalid && ConfirmPassword.errors?.['passwordMismatch'] && (ConfirmPassword.dirty || ConfirmPassword.touched)" class="block p-error">
+          Parolele nu coincid
+        </small>
+      </div>
+      
+      <button type="submit" class="custom-button" [disabled] = "signupForm.invalid">
+        Inregistrare
+      </button>
+      <div class="mt-2">Ai deja cont?<a routerLink="/login">Autentifica-te</a>
+      </div>
+    </div>
+  </form>

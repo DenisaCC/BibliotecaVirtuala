@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "fullName": "test data",
+      "email": "test@yahoo.com",
+      "password": "testData4",
+      "id": 1
+    },
+    {
+      "fullName": "Anca Marin",
+      "email": "anca.marin@yahoo.com",
+      "password": "ancaM123",
+      "id": 2
+    }
+  ]
+}

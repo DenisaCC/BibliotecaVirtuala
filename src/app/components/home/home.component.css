@@ -1,0 +1,109 @@
+.page-title {
+  font-size: 30px;
+  color: #7d4c0c;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.btn-link {
+    background-color: #7d4c0c;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: absolute;
+    top: 20px; 
+    left: 20px;
+  }
+  .btn-link:hover{
+    background-color: #603b0a;
+  }
+
+  .btn-link1 {
+    background-color: #7d4c0c;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: absolute;
+    top: 20px; 
+    right: 20px;
+  }
+  .btn-link1:hover{
+    background-color: #603b0a;
+  }
+  
+  .book-details {
+    font-family: Arial, sans-serif;
+  }
+  
+  .book-details h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .book-details p {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Spațiu între cărți */
+    padding: 0;
+    list-style: none;
+    margin-top: 150px; /* Adaugă o distanță de 20px de la partea de sus */
+    margin-left: 20px; /* Adaugă o distanță de 20px de la marginea stângă */
+    margin-right: 20px; /* Adaugă o distanță de 20px de la marginea dreaptă */
+  }
+  
+  .book-item {
+    width: 200px;
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #7d4c0c;
+    border-radius: 5px;
+    background-color: #f9f9f99e;
+  }
+
+  .delete-button {
+    background-color: #7d4c0c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #603b0a;
+  }
+
+  .error-message-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    /* Alte stiluri pentru a face mesajul de eroare vizibil în partea de sus a paginii */
+  }
+  
+  

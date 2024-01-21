@@ -1,0 +1,47 @@
+/* book-details.component.css */
+
+/* Stiluri pentru detalii carte */
+.book-details {
+    border-radius: 5px;
+    background-color: #ccccccc4;
+    padding: 20px;
+    width: 420px;
+    margin: 10px auto;
+    color: #6a3f09;
+  }
+  
+  /* Stilizare titlu */
+  .book-details h2 {
+    color: #6a3f09;
+  }
+  
+  /* Stiluri pentru paragrafe */
+  .book-details p {
+    color: #6a3f09;
+    margin-bottom: 8px;
+  }
+  
+  /* Stilizare pentru imaginea de previzualizare a cărții */
+.preview-image {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+}
+  
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #6a3f09;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Tranzitie pentru hover */
+}
+  
+.back-button:hover {
+    background-color: #6a3f09;
+    color: #000;
+}

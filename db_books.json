@@ -1,0 +1,114 @@
+{
+  "books": [
+    {
+      "id": 2,
+      "titlu": "Cat timp infloresc lamaii",
+      "autor": "Zoulfa Katouh",
+      "editura": "Bookzone",
+      "an": 2023,
+      "nr": 432,
+      "categorie": "Ficțiune",
+      "descriere": "Salama e o fată de 18 ani, studentă la farmacologie. Duce o viaţă liniştită şi plină de iubire alături de familia ei, în orăşelul Homs din Siria.     Când războiul civil izbucneşte, îi răpeşte lumea pe care o ştia: casa, familia iubitoare, studiile, siguranţa economică, ba chiar siguranţa că va mai trăi încă o zi. Singura ei rudă în viaţă e Layla, cumnata însărcinată, pe care Salama vrea s-o salveze. În timp ce caută un mod de a emigra cât mai lipsit de riscuri, îl cunoaşte pe Kenan, un tânăr protestatar cu ochi verzi enigmatici, iar asta schimbă totul..."
+    },
+    {
+      "id": 3,
+      "titlu": "O scurta istorie ilustrata a romanilor",
+      "autor": "Neagu Djuvara",
+      "editura": "Humanitas",
+      "an": 2019,
+      "nr": 352,
+      "categorie": "Istorie",
+      "descriere": "Când este însoţită de ilustraţii, o carte de istorie e mai bună, iar materia sa e şi mai lesne de înţeles şi de reţinut. Imaginile spun ele însele o poveste sau o completează, iar impactul lor e mai puternic decât orice demonstraţie. Documentele iconografice din această ediţie au fost selectate astfel încât cititorul, purtat de farmecul inconfundabil al lui Neagu Djuvara, să şi-i apropie, ca şi cum ar privi într-un album de familie alcătuit de mai multe generaţii, pe oamenii din trecut: împăraţii romani, domnii şi regii români, cu aliaţii şi duşmanii lor, politicienii, buni şi răi, cum i-am avut, în momente de triumf sau de mare restrişte, şi uneori chiar oamenii e rând, pe care istoriile adesea îi uită. Împreună, textul şi imaginile alcătuiesc o minunată istorie ilustrată a românilor."
+    },
+    {
+      "id": 5,
+      "titlu": "Riviera lui Chanel",
+      "autor": "Anne de Courcy",
+      "editura": "Litera",
+      "an": 2020,
+      "nr": 336,
+      "categorie": "Non-ficțiune",
+      "descriere": "Departe de a se îngrijora cu privire la iminentul război mondial, societatea de pe Riviera franceză din 1938 este străbătută de o întrebare arzătoare: să-i facă sau să nu-i facă reverențe ducesei de Windsor?  Cu o distribuție impresionantă de personaje istorice care mai de care mai colorate, politicieni, scriitori și artiști – Winston Churchill, Salvador Dalí, ducele și ducesa de Windsor, Aldous Huxley și Edith Wharton –, având-o în centrul acțiunii pe enigmatica Coco Chanel –, Riviera lui Chanel reînvie cu vervă și o mulțime de date istorice o perioadă în care extreme precum luxul și teroarea nu au fost niciodată mai prezente."
+    },
+    {
+      "id": 7,
+      "titlu": "Povestea mea",
+      "autor": "Michelle Obama",
+      "editura": "Litera",
+      "an": 2018,
+      "nr": 624,
+      "categorie": "Memorii",
+      "descriere": "In memoriile ei, o opera de o reflexivitate profunda, scrisa intr-un stil fermecator, Michelle Obama ii invita pe cititori in lumea sa, facand o cronica a experientelor ce au format-o, pornind de la copilaria petrecuta in partea de sud a orasului Chicago, trecand prin anii in care a fost director executiv si a trebuit sa imbine responsabilitatile de mama cu cele profesionale, si ajungand la anii petrcuti la cea mai vestita adresa din lume. Descrie cu sinceritate desavarsita si cu o inteligenta vie reusitele si dezamagirile, atat din plan public, cat si din cel personal, relatandu-si povestea asa cum a trait-o, folosindu-se de propriile ei cuvinte si asa cum doreste ea.  Plina de caldura, de intelepciune si de revelatii, Povestea mea este o insumare neobisnuit de intima ce vine din partea unei femei inimoase si plina de caracter, care a sfidat necontenit asteptarile, si a carei poveste ne inspira."
+    },
+    {
+      "id": 8,
+      "titlu": "Micul print",
+      "autor": "Antoine De Saint-Exupery",
+      "editura": "Cortex",
+      "an": 2022,
+      "nr": 96,
+      "categorie": "Copii",
+      "descriere": "Baobabii, inainte de a creste, sunt la inceput mici. A te judeca pe tine insuti e mult mai greu decat a-ti judeca semenul. Daca ajungi sa te judeci bine inseamna ca esti un intelept adevarat. Stelele sunt luminoase numai pentru ca, astfel, fiecare, candva, sa o poata regasi pe a lui. Oamenii nu mai au timp sa cunoasca nimic. Ei cumpara lucruri de gata, de la negustori. Cum insa nu exista negustori de prieteni, oamenii nu mai au prieteni. E foarte simplu: limpede nu vezi decat cu inima. Lucrurile esentiale sunt invizibile cu ochii. Stelele sunt frumoase datorita unei flori pe care nimeni nu o vede..."
+    },
+    {
+      "id": 9,
+      "titlu": "Gradina secreta",
+      "autor": "Frances Hodgson Burnett",
+      "editura": "Corint Junior",
+      "an": 2020,
+      "nr": 304,
+      "categorie": "Beletristica",
+      "descriere": "Cand locuia in India, Mary Lennox era o fetita bolnavicioasa si nu tocmai amabila cu cei din jur. Din nefericire, ramane orfana si este trimisa in Anglia, pentru a locui la misterioasa resedinta a unchiului sau Archibald Craven.  Acesta nu-i acorda prea multa atentie, si nimic nu pare sa aduca vreo schimbare in felul ei de a fi. Este singura si nu are cu cine sa se joace, dar, intr-o zi, afla de existenta unei gradini secrete in care, fireste, nimeni nu are voie sa intre. Apoi, Mary descopera o cheie veche intr-un razor de flori si, dintr-odata, un val de magie o conduce catre poarta interzisa.  Cand roteste cheia in incuietoare, Mary intra intr-o lume pe care, altfel, nu si-ar fi putut-o imagina vreodata. Ocupandu-se de gradina, alaturi de gradinarul Ben Wheatherstaff si de varul ei, Colin Craven, Mary insasi infloreste, transformandu-se intr-o fiinta optimista si vesela.  Aici este si intelesul acestei carti clasice, care a incantat atatea generatii: linistea sufleteasca si sanatatea trebuie cultivate precum florile unei gradini ingrijite cu dragoste."
+    },
+    {
+      "id": 10,
+      "titlu": "Cele 7 deprinderi ale persoanelor eficace",
+      "autor": "Stephen Covey",
+      "editura": "ALL",
+      "an": 2011,
+      "nr": 296,
+      "categorie": "Dezvoltare personală",
+      "descriere": "Covey a studiat principiile după care se ghidează oamenii de succes și le-a integrat într-un program cuprinzător, dar ușor de parcurs. A creat astfel un instrument practic, care poate fi folosit cu rezultate excelente în viața de familie, în afaceri și în societate, în general. Cele 7 deprinderi formulate în urma a zeci de ani de experiență și cercetare îi deosebesc pe cei fericiți, împliniți și sănătoși de cei care sunt supuși eșecului. Albert Einstein observa: „Problemele însemnate cu care ne confruntăm nu pot fi rezolvate la același nivel de gândire cu cel în care ne aflam când le-am creat“. Din acest punct de vedere, Covey consideră că noi și numai noi putem să ne declanșăm procesul de autoperfecționare. Avem nevoie de alt nivel, un nivel mai profund de gândire pentru a rezolva dificultățile cu rădăcini adânci. Acest nou nivel de gândire constituie subiectul prezentei lucrări."
+    },
+    {
+      "id": 11,
+      "titlu": "Acolo unde canta racii",
+      "autor": "Delia Owens",
+      "editura": "Pandora M",
+      "an": 2022,
+      "nr": 448,
+      "categorie": "Ficțiune",
+      "descriere": "Ani de-a randul, Barkley Cove, un orasel linistit de pe coasta Carolinei de Nord, a fost bantuit de zvonuri nelamurite despre Fata Mlastinii. Asa se face ca, spre sfarsitul anului 1969, cand frumosul Chase Andrews este gasit mort, localnicii o banuiesc pe Kya Clark, cea pe care ei o numesc Fata Mlastinii. Insa Kya nu e cum umbla vorba.  Sensibila si inteligenta, ea a supravietuit ani in sir, singura, in pustietatea mlastinii, casa ei, gasind prieteni printre pescarusi si lectii de viata printre nisipuri. Si a venit vremea cand ea tanjeste dupa apropierea semenilor, dupa dragoste. Cand doi tineri din oras se lasa atrasi de frumusetea salbatica a fetei, Kya se simte tentata de perspectiva unei vieti noi, fara macar sa se gandeasca la ce-ar putea sa-i aduca viitorul."
+    },
+    {
+      "id": 12,
+      "titlu": "Drumurile matasii. O noua istorie a lumii",
+      "autor": "Peter Frankopan",
+      "editura": "Trei",
+      "an": 2019,
+      "nr": 704,
+      "categorie": "Istorie",
+      "descriere": "Vreme de secole, faima și avuțiile erau de găsit înspre vest – în Lumea Nouă a Americilor. Astăzi, Estul este cel care îi ademenește pe cei aflați în căutare de bogății și aventură. Din întinderile Asiei Centrale și până în depărtările Chinei și Indiei, o regiune care odinioară a ocupat avanscena lumii se ridică din nou pentru a domina comerțul, politica și cultura mondială. Reevaluând fundamental istoria lumii, Drumurile mătăsii lansează o magistrală explorare a forțelor care au dus la ascensiunea și decăderea imperiilor, au determinat fluxul de idei și bunuri, iar acum vestesc noii zori ai lumii afacerilor internaționale."
+    },
+    {
+      "id": 13,
+      "titlu": "Fata din tren",
+      "autor": "Paula Hawkins",
+      "editura": "Trei",
+      "an": 2015,
+      "nr": 408,
+      "categorie": "Mister",
+      "descriere": "Rachel merge in fiecare dimineata cu acelasi tren. Stie ca va astepta la acelasi semnal defect, timp in care va urmari ritualul de dimineata al unui cuplu ce locuieste intr-o casa de langa calea ferata.  I-a botezat Jess si Jason si viata lor i se pare perfecta.  Pana cand intr-o zi vede ceva ce o socheaza. Totul se schimba si Rachel are sansa de a lua parte la vietile pe care le-a observat doar de pe margine."
+    },
+    {
+      "id": 14,
+      "titlu": "test",
+      "autor": "test",
+      "editura": "Curtea Veche",
+      "an": 2013,
+      "nr": 125,
+      "categorie": "Non-ficțiune",
+      "descriere": "test"
+    }
+  ]
+}

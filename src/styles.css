@@ -1,1 +1,130 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import "primeicons/primeicons.css";
+
+html, 
+body{
+    height:100%;
+   margin: 0;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0); /* Aici poți ajusta transparența */
+    padding: 20px;
+  }
+  
+  .auth-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    background-color: rgba(255, 255, 255, 0.521); /* Aici poți ajusta transparența */
+    padding: 20px;
+  }
+  
+  .field {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .custom-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .custom-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #b38600cc;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #b38600cc;
+  }
+  
+  body {
+    background-image: url('/assets/page.jpg'); /* Calea către imagine în directorul assets */
+    background-size: cover;
+    background-position: center;
+    /* Alte proprietăți CSS pentru a formata imaginea de fundal */
+  }
+  .titlu-container {
+    position: relative;
+}
+
+.titlu {
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align: left;
+}
+  .custom1-button {
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #604801cc;
+    color: white;
+    cursor: pointer;
+    padding: 8px 12px; /* Spațiu de 8px deasupra și dedesubtul butonului, 12px stânga și dreapta */
+    margin-right: 20px; /* Adaugă un spațiu de 10px între butoane */
+    margin-bottom: 20px;
+  }
+  h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+.fiction-container {
+  align: left;
+}
+
+.fiction-container button {
+  padding: 10px 20px;
+  background-color: #604801cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-title {
+  width: 100%; /* Lățimea casetei */
+  padding: 10px; /* Spațiul interior al casetei */
+  margin: 5px 0; /* Spațiul exterior al casetei */
+  box-sizing: border-box; 
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 20px; 
+}
+
+/* Stilizare la focus (când caseta este selectată) */
+.input-title:focus {
+  outline: none; /* Eliminarea conturului la focus (pentru aspect mai curat) */
+  border-color: #3498db; /* Schimbarea culorii chenarului la focus */
+}
+
+
+.fiction-container button:hover {
+  background-color: #604801cc;
+}

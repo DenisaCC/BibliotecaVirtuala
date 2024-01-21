@@ -1,0 +1,45 @@
+<form [formGroup]="loginForm" class="form-container" (ngSubmit)="loginUser()">
+    <div class="auth-container">
+      <div class="text-over-image">
+          <h1>Biblioteca Virtuală!</h1>
+      <h2>Autentificare</h2>
+      <div class="field">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          [(ngModel)]="email"
+          formControlName="email"
+          class="custom-input"
+          placeholder="Introduceti adresa de email"
+        />
+        <small *ngIf="Email.invalid && (Email.dirty || Email.touched)" class="block p-error">
+          <div *ngIf="Email.errors?.['required']">Acest camp este obligatoriu</div>
+          <div *ngIf="Email.errors?.['email']">Introduceti o adresa de email valida</div>
+        </small>
+      </div>
+      <div class="field">
+        <label for="password">Parola</label>
+        <input
+          type="password"
+          id="password"
+          [(ngModel)]="password"
+          formControlName="password"
+          class="custom-input"
+          placeholder="Introduceti parola"
+        />
+        <small *ngIf="Password.invalid && (Password.dirty || Password.touched)" class="block p-error">
+          <div *ngIf="Password.errors?.['required']">Acest camp este obligatoriu</div>
+          <div *ngIf="Password.errors?.['minlength']">Parola trebuie să aibă cel puțin 8 caractere</div>
+          <div *ngIf="Password.errors?.['pattern']">Parola trebuie să aibă cel puțin un număr și o literă majusculă</div>
+        </small>
+      </div>
+      <button type="submit" class="custom-button">
+        Autentificare
+      </button>
+      <div class="mt-2">
+        Nu ai cont? <a routerLink="/signup">Inregistreaza-te</a>
+      </div>
+    </div>
+    </div>
+  </form>

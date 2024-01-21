@@ -1,0 +1,73 @@
+<form (ngSubmit)="addBook()" #formularCarte="ngForm" class="my-form">
+    <h2>Adaugă carte</h2>
+    <a routerLink="/home" class="back-button">Înapoi</a>
+    <label>
+        Titlu:
+        <input type="text" name="titlu" placeholder="Introduceți titlul cărții" [(ngModel)]="newBook.titlu" required #titlu="ngModel" class="form-control">
+        <div *ngIf="titlu.invalid && (titlu.dirty || titlu.touched)">
+          <small *ngIf="titlu.errors?.['required']" class="error-msg">Titlul este obligatoriu.</small>
+        </div>
+    </label>
+
+    <label>
+        Autor:
+        <input type="text" name="autor" placeholder="Introduceți numele autorului" [(ngModel)]="newBook.autor" required #autor="ngModel" class="form-control">
+        <div *ngIf="autor.invalid && (autor.dirty || autor.touched)">
+          <small *ngIf="autor.errors?.['required']" class="error-msg">Autorul este obligatoriu.</small>
+        </div>
+    </label>
+
+    <label>
+        Editura:
+        <input type="text" name="editura" placeholder="Introduceți editura" [(ngModel)]="newBook.editura" required #editura="ngModel" class="form-control">
+        <div *ngIf="editura.invalid && (editura.dirty || editura.touched)">
+          <small *ngIf="editura.errors?.['required']" class="error-msg">Editura este obligatorie.</small>
+        </div>
+    </label>
+
+    <label>
+        Anul publicării:
+        <input type="number" name="an" placeholder="Introduceți anul publicării" [(ngModel)]="newBook.an" required #an="ngModel" class="form-control">
+        <div *ngIf="an.invalid && (an.dirty || an.touched)">
+          <small *ngIf="an.errors?.['required']" class="error-msg">Anul publicării este obligatoriu.</small>
+        </div>
+    </label>
+
+    <label>
+        Nr pagini:
+        <input type="number" name="nr" placeholder="Introduceți numărul de pagini" [(ngModel)]="newBook.nr" required #nr="ngModel" class="form-control">
+        <div *ngIf="nr.invalid && (nr.dirty || nr.touched)">
+          <small *ngIf="nr.errors?.['required']" class="error-msg">Numărul de pagini este obligatoriu.</small>
+        </div>
+    </label>
+
+    <label>Categorie:
+    <select name="categorie" id="categorie" [(ngModel)]="newBook.categorie" required #categorie="ngModel" class="form-control">
+        <option value="Ficțiune">Ficțiune</option>
+        <option value="Non-ficțiune">Non-ficțiune</option>
+        <option value="Istorie">Istorie</option>
+        <option value="Mister">Mister</option>
+        <option value="Dezvoltare personală">Dezvoltare personală</option>
+        <option value="Dragoste">Dragoste</option>
+        <option value="Memorii">Memorii, Biografii și Jurnale</option>
+        <option value="Copii">Cărți pentru copii</option>
+        <option value="Beletristica">Beletristică</option>
+    </select>
+    <div *ngIf="categorie.invalid && (categorie.dirty || categorie.touched)">
+        <small *ngIf="categorie.errors?.['required']" class="error-msg">Categoria este obligatorie.</small>
+      </div>
+    </label>
+
+    <label>
+        Descriere:
+        <input type="text" name="descriere" placeholder="Scurtă descriere a cărții" [(ngModel)]="newBook.descriere" required #descriere="ngModel" class="form-control">
+        <div *ngIf="descriere.invalid && (descriere.dirty || descriere.touched)">
+            <small *ngIf="descriere.errors?.['required']" class="error-msg">Descrierea este obligatorie.</small>
+        </div>
+    </label>
+    
+
+  
+    <button type="submit" class="btn-submit">Adaugă carte</button>
+    <div *ngIf="formularCarte.invalid && (formularCarte.dirty || formularCarte.touched)"></div>
+</form>
